@@ -1,0 +1,23 @@
+SOURCES_C   := 
+SOURCES_CXX := \
+		$(CORE_DIR)/avi_player.cpp \
+		$(CORE_DIR)/bag.cpp \
+		$(CORE_DIR)/decoder.cpp \
+		$(CORE_DIR)/dialogue.cpp \
+		$(CORE_DIR)/file.cpp \
+		$(CORE_DIR)/fs.cpp \
+		$(CORE_DIR)/game.cpp \
+		$(CORE_DIR)/main_libretro.cpp \
+		$(CORE_DIR)/mixer_soft.cpp \
+		$(CORE_DIR)/menu.cpp \
+		$(CORE_DIR)/opcodes.cpp \
+		$(CORE_DIR)/parser_dlg.cpp \
+		$(CORE_DIR)/parser_scn.cpp \
+		$(CORE_DIR)/random.cpp \
+		$(CORE_DIR)/resource.cpp \
+		$(CORE_DIR)/saveload.cpp \
+		$(CORE_DIR)/screenshot.cpp \
+		$(CORE_DIR)/staticres.cpp \
+		$(CORE_DIR)/str.cpp \
+		$(CORE_DIR)/util.cpp \
+		$(CORE_DIR)/win16.cpp
